@@ -149,4 +149,12 @@ Every time you are asked to make a change follow:
 
 * Commit often, in small ordered commits.
 * Each commit says why, what changed, and how you proved it.
-* Push to the main line at the end.
+* Do not push to the main line at the end, leave unpushed
+  * use `jj` command for vsc management
+
+
+# Tools preferences
+* use `jj` for vcs commands
+  * use `jj bookmark create fix/some-issue && jj bookmark track fix/some-issue` to create and track branch
+  * use `jj bookmark set fix/some-issue` to update bookmark to point to latest commit in branch
+  * leave pull and push commands to the user
