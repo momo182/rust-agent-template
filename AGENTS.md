@@ -4,15 +4,15 @@
 - assume uv@latest is installed in mise
 - use uv for launching and managing python code and where aplicable
 
-# skills to use
+## Skills to use
+
+Your main skill to apply to any coding task is: `ub-mode`.  
+batteries for **ub-mode** are in `pyproject.toml` (uv-managed).
+
+Use following language specific skills ot top of **ub-mode**,  
+but **ub-mode** still has to govern coding tasks overall execution process:
 
 - rust
-    - rust-best-practices
-        - Write idiomatic, robust, maintainable Rust
-    - rust-port
-        - Port code from C, C++, Python, Go, JavaScript, or TypeScript into idiomatic Rust
-    - rust-review
-        - Review existing Rust code for idiom, API design, error handling, safety, and maintainability
-- common workflow
-    - ub-mode
-        - batteries for ub-mode are present in pyproject.toml, use those with the skill
+    - rust-best-practices — write idiomatic, robust, maintainable Rust
+    - rust-port — porting code from other languages into this codebase
+    - rust-review — review existing Rust code for idiom, API design, error handling
